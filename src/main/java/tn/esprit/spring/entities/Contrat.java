@@ -29,7 +29,7 @@ public class Contrat implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date dateDebut;
 	 
-	private String typeContrat;
+	public String typeContrat;
  
 	@JsonIgnore
 	@OneToOne(mappedBy="contrat")
